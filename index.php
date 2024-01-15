@@ -1,7 +1,7 @@
 <?php
-$locatie = 'mysql';
+$locatie = 'localhost';
 $databasenaam = 'm3tdb';
-$gebruikersnaam = 'willem';
+$gebruikersnaam = 'm3t';
 $wachtwoord = 'Password123!';
 try {
     $db_handler = new PDO("mysql:host=$locatie;dbname=$databasenaam", $gebruikersnaam, $wachtwoord);
